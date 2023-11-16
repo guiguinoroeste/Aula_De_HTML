@@ -1,0 +1,72 @@
+<html>
+    <head>
+      <title>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</title>
+    </head>
+
+    <body>
+        <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+            <form action="" method="get">
+
+                <label for="login">Login</label>
+                <input name="login" type="text">
+
+                <br><br>
+
+                <label for="senha">Senha</label>
+                <input name="senha" type="password">
+
+                <br><br>
+
+                <label for="status">Status: </label>
+                <select name="status">
+                    <option value="Ativo">Ativo</option>
+                    <option value="Inativo">Inativo</option>
+                </select>
+
+                <br><br>
+
+                <label for="">Tipo:</label>
+                <input name="tipo" type="radio" value="tecnico">
+                <label for="tipo">Técnico</label>
+                <input name="tipo" type="radio" value="professor">
+                <label for="tipo">Professor</label>
+                <input name="tipo" type="radio" value="aluno">
+                <label for="tipo">Aluno</label>
+
+                <br><br>
+
+                <label for="data_Criacao">Data Criação</label>
+                <input name="data_Criacao" type="date">
+
+                <br><br>
+
+                <label for="">Perfil:</label>
+                <input name="perfil" type="radio" value="convidado">
+                <label for="perfil">Convidado</label>
+                <input name="perfil" type="radio" value="administrador">
+                <label for="perfil">administrador</label>
+
+                <br><br>
+
+                <label for="observacoes">Observações: </label>
+                <br>
+                <textarea name="observacoes" cols="40" rows="10"></textarea>
+
+                <br><br>
+
+                <label for="">Módulos: </label>
+                <input type="checkbox" name="modulo" value="1"> Compras
+                <input type="checkbox" name="modulo" value="2"> Biblioteca
+                <input type="checkbox" name="modulo" value="3"> Acadêmico
+                <br>
+                <input type="checkbox" name="modulo" value="4"> Documentação
+                <input type="checkbox" name="modulo" value="5"> Recursos Humanos
+
+                <br><br>
+
+                <input name="btnSubmeter" type="submit" value="Cadastrar">
+                <input name="btnSubmeter" type="reset" value="Excluir">
+
+        </form>
+    </body>
+</html>
