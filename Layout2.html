@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Meu segundo Layout</title>
+    </head>
+    <body>
+        <style>
+            header {
+                background-color: gray;
+                grid-area: head;
+                text-align: center;
+                border: solid 2px;
+
+            }
+                           
+            main {
+                background-color: green;
+                grid-area: main;
+                height: 90%;
+
+            }
+            aside {
+                background-color: yellow;
+                grid-area: aside;
+            
+            }
+
+            .container {
+                display: grid;
+                grid-template-areas:
+                "head head"
+                "main aside";
+                height: 100%;
+                grid-template-rows: 20px auto;
+                
+
+            }
+      
+        </style>
+
+        <div class="container">
+        <header>Meu título</header>
+        <main>Conteúdo Principal</main>
+        <aside>Menu</aside>
+    </div>
+    </body>
+</html>
