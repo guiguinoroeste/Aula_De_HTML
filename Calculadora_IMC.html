@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora IMC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>Calculadora IMC</h1>
+            </div>
+            <style>
+                div {
+                  text-align: center;
+                }
+              </style>
+              
+              <div>
+                <img src="Nutricionista_3.jpg">
+              </div>
+        </header>
+
+        <main>
+            <section class="formulario">
+
+            <form action="" id="calculo-imc">
+
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input name="nome" type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
+
+                <label for="idade">Idade</label>
+                <input name="idade" type="text" id="idade" class="input-padrao" required placeholder="Digite sua idade">
+
+                <label for="peso">Peso</label>
+                <input 
+                name="peso" type="text" id="peso" class="input-padrao" required placeholder="digite seu peso em kg">
+
+                <label for="altura">Altura</label>
+                <input name="altura" type="text" id="altura" class="input-padrao" required placeholder="digite sua altura em metros ex: 1.90">
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+
+            <div class="resultado">
+                <span class="imc">Calcule seu IMC</span>
+                <span class="classificacao">Resultado aqui!</span>
+                <span class="risco">Índice, Classificação e Riscos!</span>
+            </div>
+            </section>
+        </main>
+        <script src="script/calculo-imc.js"></script>
+
+    </body>
+</html>
