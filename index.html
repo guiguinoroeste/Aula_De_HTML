@@ -1,37 +1,21 @@
-<html lang="pt-br">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <source src="src/script.js" type="script">
-        <title>Minha Loja de Batatas</title>
-        <header>
-        <h1>Loja de Batatas</h1>
-        <p>Bem-vindo a minha loja de batatas.</p>
-        </header>
-    </head>
+        <title>Calculadora IMC</title>
+        <H1>Calculadora IMC</H1>
     <body>
-        <section class="produtos">
-            <article class="produto">
-                <img src="batata_IMG.jpg"> 
-                <h2>Batata Comum</h2>
-                <p>R$4,00 KG</p>
-                <button id="botao">Adicionar ao carrinho</button>
-            </article>
-            <article>
-                <img src="batata-doce-rosada.jpg">
-                <h2>Batata Doce</h2>
-                <P>R$5,50 KG</P>
-                <button id="botao">Adicionar ao carrinho</button>
-            </article>
-        </section>
-        <footer>
-            <p>&copy; 2023 Minha Loja de Batatas</p>
-        </footer>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" name="nome" id="txtNome">
+            <label for="Peso">Peso:</label>
+            <input type="text" name="peso" id="txtPeso">
+            <label for="Altura">Altura:</label>
+            <input type="text" name="Altura" id="txtAltura">
 
-        <div id="contador-carrinho">0</div>
-
-        <script src="src/script.js"></script>
+            <input type="submit" value="Enviar">
+        </form>
     </body>
 </html>
-    
