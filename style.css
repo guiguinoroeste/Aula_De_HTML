@@ -1,0 +1,42 @@
+html{
+    background-color:skyblue;
+
+}
+
+h1{
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.main {
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+.main div {
+    background: #c71111;
+    margin-right:10px;
+}
+
+
+    .main {
+        width: 500px;
+        background: #EFEFEF;
+        height: 500px;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}    
+
+.content {
+    grid-column: 2;
+}
