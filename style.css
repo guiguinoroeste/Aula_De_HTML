@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#display {
+    grid-area: display;
+    height: 40px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+#calculadora {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    grid-template-areas:
+        "display display display display"
+        "limpar apagar dividir multiplicar"
+        "sete oito nove subtrair"
+        "quatro cinco seis somar"
+        "um dois tres igual";
+}
