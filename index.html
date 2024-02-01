@@ -1,23 +1,31 @@
 <html>
     <head>
-        <script type="text/javascript" src="src/script.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <title>Calculadora IMC</title>
         <h1>Calculadora IMC</h1>
+    </head>
     <body>
-        <form>
-            <div class="main"></div>
-            <label for="Name">Name:</label>
-            </div><input type="text" name="nome" id="txtNome">
-            <div><label for="Peso">Peso:</label>
-            <input type="text" name="peso" id="txtPeso"><div>
-            <div><label for="Altura">Altura:</label>
-            <input type="text" name="Altura" id="txtAltura"></div>
-            <input type="submit" value="Enviar">
-        </div>
+        <div class="entrada">
+        <label for="Name">Name:</label>
+        <input type="text" name="nome" id="txtNome"></div>
+
+        <div class="entrada">
+        <label for="Peso">Peso:</label>
+        <input type="text" name="peso" id="txtPeso"></div>
+
+        <div class="entrada">
+        <label for="Altura">Altura:</label>
+        <input type="text" name="Altura" id="txtAltura"></div>
+
+        <input type="submit" value="Enviar">
+    </div>
+    <button id="Calcular" onclick = "calculo()" >Calcular</button></div>
+
+    <p class="p" >Seu IMC é:</p>
+            <p id="result" class="p"></p>
         </form>
-        <script type="text/javascript" src="src/script.js"></script>
+        <script src="src/script.js"></script>
     </body>
 </html>
